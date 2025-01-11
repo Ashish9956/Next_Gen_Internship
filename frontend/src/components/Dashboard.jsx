@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'; // For navigation
-
+// dashboard
 const Dashboard = () => {
   const [documents, setDocuments] = useState([]);
   const [viewOption, setViewOption] = useState('all'); // 'all', 'my', 'add'
